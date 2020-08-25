@@ -333,33 +333,42 @@
     </div>
 
      <!--Section form-->
-    <div class="form">
-        <h2 class="form__title">Contact us</h2>
-        <hr class="form__line">
-        <p class="form__text">Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit.</p>
 
-        <div class="form__main">
-            <div class="form__name">
-         <input type="text" placeholder="Name" class="contact__item">
-            </div>
-                <div class="form__email">
-                    <input type="text" placeholder="E-mail" class="contact__item">
-            </div>
-                <div class="form__subject">
-                    <input type="text" placeholder="Subject" class="contact__item">
-            </div>
+     <div class="contacts__header">
+
+    <div class="contacts__main">
+        <h2 class="contacts__title">Contact us</h2>
+        <hr class="contacts__line">
+        <p class="contacts__text">Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit.</p>
         </div>
-                <div class="form__message">
-                    <textarea cols="30" rows="10" placeholder="Message" class="contact__item">
-            </textarea>
-            </div>
+
+            <div class="form__contacts">
+
+            <p class="form__name">
+                <input class="contacts" placeholder="Name" type="name" name="name">
+            </p>
+
+            <p class="form__email">
+                <input class="contacts" placeholder="Email" type="email" name="email">
+            </p>
+
+            <p class="form__subject">
+                <input class="contacts" placeholder="Subject" type="subject" name="subject">
+            </p>
+        </div>
             
 
+            <div class="form__contacts">
+
+                <p class="contacts__message">
+                    <textarea class="contacts__response"  placeholder="Message"></textarea>
+                </p>
             </div>
-    
-    
+                <button class="contacts__button">Send Message</button>
+            </div>
     </main>
+
 <!--Section footer-->
     <footer class="footer">
 <ul class="footer__list">
