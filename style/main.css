@@ -501,6 +501,7 @@ ul{
 .list__item{
     width: 343px;
     height: 40px;
+    padding-top: 15px;
     text-transform: uppercase;
     background-color: #FFFFFF;
 	color: #86878B;
