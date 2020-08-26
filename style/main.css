@@ -669,14 +669,16 @@ ul{
 }
 
 .contacts__button {
-    display: block;
-    margin: 43px auto;
+    	display: block;
+    	margin: 43px auto;
 	width: 148px;
 	height: 46px;
 	background: #FF8B38;
+	border:none;
+	border-radius: 5%;
 	font-size: 15px;
 	font-weight: 600;
-    color: #fff;
+    	color: #fff;
     
 }
 
